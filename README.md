@@ -1,4 +1,4 @@
-# README
+# Blood Type Inheritance Mapper
 
 Given a certain number of GENERATIONS, *inheritance.c* creates a family tree for person p where *person* is a struct with two blood-type alleles (either A, B, or O) and two parents, each of which is a also a *person* struct (our first instance of recursion) with two alleles and two more parents. This module is a great example of repeatedly using recursion in different helper functions to drive the main code.
 
